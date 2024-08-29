@@ -10,15 +10,15 @@ The Hamilton function $H(\mathbf x,\mathbf y)$ expands into a convergent power s
 ```math
 H(\mathbf x,\mathbf y) = \sum H_{\mathbf p\mathbf q}\mathbf x^{\mathbf p}\mathbf y^{\mathbf q}
 ```
-with constant coefficients $H_{\mathbf p\mathbf q}$, where $\mathbf p,\mathbf q\geq0$, $|\mathbf p|+|\mathbf q|\geq2$, and $|\mathbf{p}|=|p_1|+\dotsb+|p_n|$. 
+with constant coefficients $H_{\mathbf{pq}}$, where $\mathbf p,\mathbf q\geq0$, $|\mathbf p|+|\mathbf q|\geq2$, and $|\mathbf{p}|=|p_1|+\dotsb+|p_n|$. 
 
 Linear approximation of the Hamiltonian phase flow is provided by system 
 ```math
-\dot{\mathbf z} = B \mathbf z\text{ with matrix } B =\mathit{J} \operatorname{Hess} {H} |_{\mathbf x=\mathbf y=0}, 
+\dot{\mathbf{z}}=B\mathbf{z}\text{ with matrix }B =\mathit{J}\mathrm{Hess}\,{H}|_{\mathbf x=\mathbf y=0}, 
 ```
-where $\mathbf z=(\mathbf x,\mathbf y)$ and $\operatorname{Hess}{H}$ is the Hessian of function $H(\mathbf x,\mathbf y)$. 
+where $\mathbf z=(\mathbf x,\mathbf y)$ and $\mathrm{Hess}\,{H}$ is the Hessian of function $H(\mathbf x,\mathbf y)$. 
 
-The eigenvalues of matrix $B$ can be reordered is a such way that $\lambda_{j+n}=-\lambda_j$, $j=1,\dotsc,n$.  Denote by vector $ \boldsymbol{\lambda} = (\lambda_1, \dotsc, \lambda_n) $ the set of **basic eigenvalues** of the linear system with Hamiltonian  $H_2$. In the Hamiltonian case the characteristic polynomial is written  in the form
+The eigenvalues of matrix $B$ can be reordered is a such way that $\lambda_{j+n}=-\lambda_j$, $j=1,\dotsc,n$.  Denote by vector $ \boldsymbol{\lambda} = (\lambda_1,\dotsc,\lambda_n)$ the set of **basic eigenvalues** of the linear system with Hamiltonian  $H_2$. In the Hamiltonian case the characteristic polynomial is written  in the form
 ```math
 f(\mu)=\mu^n+a_1\mu^{n-1}+a_2\mu^{n-2}+\dotsb+a_{n-1}\mu+a_n, 
 ```
