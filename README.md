@@ -45,9 +45,9 @@ The resonant equation has two kinds of solutions, which correspond to two kinds 
 
 Following [2, Ch. I, Sec. 3][^2] we define **resonance multiplicity** $\mathfrak{k}$ as the number of linearly independent solutions $\mathbf p\in\mathbb Z^n$ to the equation $\left\langle \mathbf p,\boldsymbol{\lambda}\right\rangle=0$, and the *resonance order* $\mathfrak q=\min |\mathbf{p}|$ by $\mathbf{p} \in \mathbb{Z}^{n}$, $\mathbf{p} \neq 0$, $\langle\mathbf{p},\boldsymbol{\lambda}\rangle=0$. If the solution to the equation $\left\langle \mathbf p,\boldsymbol{\lambda}\right\rangle=0$ contains only two eigenvalues, then such resonance is called a **two-frequency resonance**, if more than two, then it is called a  **multifrequency resonance**.
 
-**Problem.** *Obtain conditions on the coefficients $a_j$, $j=1,\dotsc,n$,  of the polynomial $\chi(\mu)$  of degrees  $n=3$ and $n=4$, under which the multifrequency resonance of multiplicity 1 of order 3 or order 4 takes place.*
+**Problem.** *Obtain conditions on the coefficients* $a_j$, $j=1,\dotsc,n$,  *of the polynomial* $\chi(\mu)$ *of degrees*  $n=3$ *and* $n=4$, *under which the multifrequency resonance of multiplicity* $1$ *of orders* $3$ *or* $4$ *takes place.*
 
-Here we propose a solution of this Problem described in papers [3][^3], [4][^4]. Implementation of the method is given in [ResCond_qr1_full.mw]:[^https://github.com/abbat06/Resonant_condition/blob/main/ResCond_qr1_full.mw] "Maple notebook".
+Here we propose a solution of this Problem described in papers [3][^3], [4][^4]. Implementation of the method is given in [Maple notebook](https://github.com/abbat06/Resonant_condition/blob/main/ResCond_qr1_full.mw). Nontrivial example of *formal stability investigation* for a Hamiltonian system of three degrees of freedom given in [Example](https://github.com/abbat06/Resonant_condition/blob/main/Example.mw).
 
 [^1]: Bruno A.D.  Analytical form of differential equations (II) // *Trans. Moscow Math. Soc.*, 26:199-239 (1972).
 [^2]: Bruno A.D. *The Restricted 3-body Problem: Plane Periodic Orbits*. Walter de Gruyter, Berlin, 1994.
